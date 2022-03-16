@@ -1,0 +1,219 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Nav */
+nav {
+  position: fixed;
+  top: 0px;
+  box-shadow: 0px 2px #dfe4ea;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+}
+
+.logo {
+  padding: 5px 8px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 60px;
+  float: left;
+}
+
+.icon-menu {
+  opacity: 0;
+  color: black;
+  float: right;
+  font-size: 50px;
+  padding: 21px 0;
+}
+
+.menu-header {
+  float: right;
+}
+
+.list-menu {
+  color: black;
+  float: left;
+  display: block;
+  padding: 23px 20px;
+}
+
+.list-menu:hover {
+  color: red;
+}
+
+.btn {
+  background-color: #29a867;
+  border-radius: 6px;
+  color: #dfe4ea;
+  display: inline-block;
+  margin-top: 13px;
+  padding: 10px 20px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.banner {
+  padding-top: 90px;
+  padding-left: 15px;
+  width: 1139px;
+  height: 455px;
+  border-radius: 10px;
+}
+
+.blok {
+  width: 100%;
+  height: auto;
+  padding-left: 28px;
+  line-height: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.persegi {
+  width: 150px;
+  height: 150px;
+  margin: 5px 40px 50px 0;
+  background-color: rgb(212, 209, 209);
+  display: flex;
+  border-radius: 5px;
+  float: left;
+  justify-content: space-between;
+}
+
+.kotak {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+}
+
+.persegi span {
+  position: absolute;
+  padding-left: 45px;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+
+h3 {
+  font-weight: normal;
+  margin: 15px 0;
+  padding: 20px 0 10px 0;
+}
+
+hr {
+  opacity: 0.3;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.gambar {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr
+}
+
+.gambar .foto img {
+  width: 315px;
+}
+
+.foto {
+  border: 1px black;
+  margin: 10px;
+  text-align: center;
+}
+
+.foto a:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.foto a {
+  border: 1px solid green;
+  padding: 10px;
+  color: white;
+  background: #00C403;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.foto {
+  border: 1px solid #00C1B3;
+  margin: 10px;
+}
+
+.foto p {
+  color: #FF7476;
+}
+
+.foto h2 {
+  color: #505050;
+}
+
+.rekomendasi {
+  text-align: center;
+  color: #00C1B3;
+  margin-bottom: 25px;
+}
+
+.rekomendasi h3 {
+  padding: 4px;
+  color: white;
+  background: #00C1B3;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  padding: 30px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
